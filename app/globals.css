@@ -97,49 +97,49 @@ body {
   animation: shimmer 2s infinite;
 }
 
-/* Gradientes sofisticados */
+/* Gradientes sofisticados - Cinza e Rosa */
 .gradient-bg {
-  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
 .gradient-bg-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #64748b 0%, #475569 100%);
 }
 
 .gradient-bg-secondary {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
 }
 
 .gradient-bg-elegant {
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  background: linear-gradient(135deg, #f1f5f9 0%, #fce7f3 100%);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #be185d, #db2777, #ec4899);
+  background: linear-gradient(135deg, #64748b, #ec4899, #f472b6);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-elegant {
-  background: linear-gradient(135deg, #2d1b69, #11998e);
+  background: linear-gradient(135deg, #475569, #64748b);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-subtle {
-  background: linear-gradient(135deg, #831843, #be185d);
+  background: linear-gradient(135deg, #6b7280, #ec4899);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Cards ultra profissionais */
+/* Cards ultra profissionais - Cinza e Rosa */
 .professional-card {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(219, 39, 119, 0.08);
+  border: 1px solid rgba(100, 116, 139, 0.08);
   box-shadow: 
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06),
@@ -148,11 +148,11 @@ body {
 }
 
 .professional-card:hover {
-  border-color: rgba(219, 39, 119, 0.15);
+  border-color: rgba(236, 72, 153, 0.15);
   box-shadow: 
     0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04),
-    0 0 0 1px rgba(219, 39, 119, 0.05) inset;
+    0 0 0 1px rgba(236, 72, 153, 0.05) inset;
   transform: translateY(-2px);
 }
 
@@ -169,13 +169,13 @@ body {
 .luxury-card:hover {
   box-shadow: 
     0 25px 50px -12px rgba(0, 0, 0, 0.25),
-    0 0 0 1px rgba(219, 39, 119, 0.05);
+    0 0 0 1px rgba(236, 72, 153, 0.05);
   transform: translateY(-4px) scale(1.02);
 }
 
-/* Botões elegantes */
+/* Botões elegantes - Cinza e Rosa */
 .btn-primary {
-  background: linear-gradient(135deg, #be185d 0%, #db2777 50%, #ec4899 100%);
+  background: linear-gradient(135deg, #64748b 0%, #ec4899 50%, #f472b6 100%);
   color: white;
   font-weight: 600;
   padding: 1rem 2rem;
@@ -185,7 +185,7 @@ body {
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(219, 39, 119, 0.3);
+  box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
 }
 
 .btn-primary::before {
@@ -205,15 +205,15 @@ body {
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(219, 39, 119, 0.4);
+  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.4);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #be185d;
+  color: #64748b;
   font-weight: 600;
   padding: 1rem 2rem;
-  border: 2px solid #be185d;
+  border: 2px solid #64748b;
   border-radius: 0.75rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -228,7 +228,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: #be185d;
+  background: #64748b;
   transition: left 0.3s ease;
   z-index: -1;
 }
@@ -269,12 +269,12 @@ body {
   color: #6b7280;
 }
 
-/* Ícones elegantes */
+/* Ícones elegantes - Cinza e Rosa */
 .icon-wrapper {
   width: 4rem;
   height: 4rem;
-  background: linear-gradient(135deg, #fef7ff, #f3e8ff);
-  border: 1px solid rgba(219, 39, 119, 0.1);
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  border: 1px solid rgba(100, 116, 139, 0.1);
   border-radius: 1rem;
   display: flex;
   align-items: center;
@@ -284,7 +284,7 @@ body {
 }
 
 .icon-wrapper:hover {
-  background: linear-gradient(135deg, #be185d, #db2777);
+  background: linear-gradient(135deg, #64748b, #ec4899);
   transform: scale(1.1) rotate(5deg);
 }
 
@@ -292,10 +292,10 @@ body {
   color: white;
 }
 
-/* Linha decorativa */
+/* Linha decorativa - Cinza e Rosa */
 .decorative-line {
   height: 2px;
-  background: linear-gradient(90deg, transparent, #be185d, transparent);
+  background: linear-gradient(90deg, transparent, #64748b, #ec4899, transparent);
   margin: 2rem auto;
   width: 4rem;
 }

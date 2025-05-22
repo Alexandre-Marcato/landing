@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   },
   robots: "index, follow",
   icons: {
-    icon: '/images/logo..png',
-    shortcut: '/images/logo..png',
-    apple: '/images/logo..png',
+    icon: '/images/foto2.jpg',
+    shortcut: '/images/foto2.jpg',
+    apple: '/images/foto2.jpg',
     other: {
       rel: 'apple-touch-icon-precomposed',
-      url: '/images/logo..png',
+      url: '/images/foto2.jpg',
     },
   },
 };
@@ -44,9 +44,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="icon" type="image/png" href="/images/logo..png" />
-        <link rel="shortcut icon" type="image/png" href="/images/logo..png" />
-        <link rel="apple-touch-icon" href="/images/logo..png" />
+        <link rel="icon" type="image/jpeg" href="/images/foto2.jpg" />
+        <link rel="shortcut icon" type="image/jpeg" href="/images/foto2.jpg" />
+        <link rel="apple-touch-icon" href="/images/foto2.jpg" />
       </head>
       <body className={`${poppins.className} antialiased`}>
         {children}
