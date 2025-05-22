@@ -19,6 +19,15 @@ export const metadata: Metadata = {
   },
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: '/images/logo..png',
+    shortcut: '/images/logo..png',
+    apple: '/images/logo..png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/images/logo..png',
+    },
+  },
 };
 
 export default function RootLayout({
@@ -31,6 +40,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="icon" type="image/png" href="/images/logo..png" />
+        <link rel="shortcut icon" type="image/png" href="/images/logo..png" />
+        <link rel="apple-touch-icon" href="/images/logo..png" />
       </head>
       <body className={`${poppins.className} antialiased`}>
         {children}
